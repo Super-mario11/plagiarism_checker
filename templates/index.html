@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Plagiarism Checker</title>
+    <link rel="stylesheet" href="../static/styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>🔍 AI Plagiarism Checker</h1>
+
+      <form id="upload-form">
+        <label for="file-input" class="custom-file-upload">
+          <i class="fas fa-upload"></i> Choose Files
+        </label>
+        <input type="file" id="file-input" multiple hidden />
+        <span id="file-name">No file chosen</span>
+        <button type="submit" class="upload-btn">Upload & Check</button>
+      </form>
+
+      <div id="progress-container">
+        <div id="progress-text">Waiting for files...</div>
+        <div class="progress-bar-container">
+          <div class="progress-bar"></div>
+        </div>
+        <div id="loader"></div>
+      </div>
+
+      <div id="results"></div>
+    </div>
+
+    <script src="../static/script.js"></script>
+  </body>
+</html>

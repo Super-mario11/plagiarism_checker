@@ -1,0 +1,3 @@
+Machine Learning (ML) is a subset of Artificial Intelligence (AI). 
+It enables systems to learn from data and make decisions without explicit programming. 
+AI is revolutionizing industries by enhancing automation and improving efficiency.
